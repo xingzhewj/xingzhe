@@ -3,7 +3,7 @@
 **/
 
 if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('./test.js', {
+    navigator.serviceWorker.register('/src/common/test.js', {
         scope: './'
     }).then(function (req, res) {
         console.log(req);
